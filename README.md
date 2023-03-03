@@ -261,6 +261,7 @@ Copy/paste the table into the README file below this line.
 | 2**20 | 4.95e-02 | 1.32e+01 | 1.58e+01|
 | 2**21 | 9.45e-02 | 2.69e+01 | 3.26e+01|
 | 2**22 | 1.87e-01 | 5.54e+01 | 6.81e+01|
+| 2**23 | 3.66e-01 | 1.19e+02 | 1.42e+02|
 
 You should notice that the built-in `sorted` function ran much faster on this input,
 but your `merge_sorted` and `quick_sorted` functions have essentially the same runtimes.
