@@ -236,7 +236,31 @@ Follow the instructions in the comments to provide a proper definition of `xs`,
 then rerun the command above to generate a markdown table of runtimes.
 Copy/paste the table into the README file below this line.
 
-<!-- add the table here -->
+|          | 'timsort' | 'merge_sorted' | 'quick_sorted' |
+|----------- | ---------- |------------ |------------ |
+| 2**0 | 4.03e-06 | 3.08e-06 | 2.60e-06|
+| 2**1 | 2.38e-06 | 9.28e-06 | 1.03e-05|
+| 2**2 | 1.97e-06 | 1.55e-05 | 1.49e-05|
+| 2**3 | 2.06e-06 | 3.20e-05 | 2.95e-05|
+| 2**4 | 2.54e-06 | 7.18e-05 | 6.64e-05|
+| 2**5 | 3.04e-06 | 1.59e-04 | 1.47e-04|
+| 2**6 | 4.40e-06 | 3.48e-04 | 3.34e-04|
+| 2**7 | 6.55e-06 | 7.58e-04 | 7.55e-04|
+| 2**8 | 1.10e-05 | 1.66e-03 | 1.68e-03|
+| 2**9 | 2.28e-05 | 3.59e-03 | 3.78e-03|
+| 2**10 | 3.92e-05 | 7.76e-03 | 8.34e-03|
+| 2**11 | 8.10e-05 | 1.66e-02 | 1.82e-02|
+| 2**12 | 1.67e-04 | 3.60e-02 | 3.96e-02|
+| 2**13 | 3.41e-04 | 7.69e-02 | 8.70e-02|
+| 2**14 | 6.97e-04 | 1.63e-01 | 1.87e-01|
+| 2**15 | 1.37e-03 | 3.46e-01 | 3.98e-01|
+| 2**16 | 2.71e-03 | 7.30e-01 | 8.47e-01|
+| 2**17 | 5.08e-03 | 1.55e+00 | 1.78e+00|
+| 2**18 | 1.13e-02 | 3.08e+00 | 3.60e+00|
+| 2**19 | 2.34e-02 | 6.27e+00 | 7.14e+00|
+| 2**20 | 4.95e-02 | 1.32e+01 | 1.58e+01|
+| 2**21 | 9.45e-02 | 2.69e+01 | 3.26e+01|
+| 2**22 | 1.87e-01 | 5.54e+01 | 6.81e+01|
 
 You should notice that the built-in `sorted` function ran much faster on this input,
 but your `merge_sorted` and `quick_sorted` functions have essentially the same runtimes.
